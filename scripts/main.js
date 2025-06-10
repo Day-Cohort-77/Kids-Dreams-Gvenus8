@@ -18,8 +18,11 @@ const applicationHTML = `
     </article>
 
     <article class="assignments">
+    <section class="assignment--column">
         <h2>Pairings</h2>
-    </article>
+        ${Pairings()}
+   </section>
+        </article>
 `
 
 mainContainer.innerHTML = applicationHTML
